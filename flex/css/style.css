@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: lightpink;
+    font-family: sans-serif;
+}
+
+.navLiks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    right: 0px;
+    height: 90px;
+    top: 10vh;
+    background-color: lightpink;
+    align-items: center;
+    width: 20%;
+}
+
+.navLiks li {
+    list-style: none;
+}
+
+.navLiks a {
+    color: lightsalmon;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#container div {
+    display: flex;
+    flex-direction: row row-reverse column column-reverse;
+}
+
+.item {
+    order: 1, 2, 3, 4, 5;
+  }
